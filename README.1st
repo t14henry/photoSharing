@@ -1,1 +1,9 @@
 a photo sharing website
+
+mysql:
+
+GRANT ALL PRIVILEGES ON photoSharing_development.*
+TO 'photoSharing'@'localhost'
+IDENTIFIED BY '111111';
+
+SHOW GRANTS FOR 'photoSharing'@'localhost';
