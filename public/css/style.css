@@ -1,0 +1,13 @@
+* {
+	display: block;
+}
+nav li {
+	display: inline;
+}
+title {
+	display: none;
+}
+body {
+	width: 950px;
+	
+}
