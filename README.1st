@@ -1,5 +1,7 @@
 a photo sharing website
 
+database name: photoSharing_development
+
 mysql:
 
 GRANT ALL PRIVILEGES ON photoSharing_development.*
