@@ -24,101 +24,103 @@
 				</li>
 				</ul>
 				</nav> -->
-				<div class="form_container">
-					<form action="register_submit" method="get" accept-charset="utf-8">
-						<h2>Registration</h2>
-						<div class="form_row">
-							<label class="label" for="username_collection">Username</label>
-							<div class="form_collection" id="username_collection">
-								<input type="text" id="username" />
+				<div class="register_box">
+					<div class="form_container">
+						<form action="register_submit" method="get" accept-charset="utf-8">
+							<h2>Registration</h2>
+							<div class="form_row">
+								<label class="label" for="username_collection">Username</label>
+								<div class="form_collection" id="username_collection">
+									<input type="text" id="username" />
+								</div>
+								<div class="form_message">
+									<p id="username_msg">
+										*
+									</p>
+								</div>
 							</div>
-							<div class="form_message">
-								<p id="username_msg">
-									*
-								</p>
+							<div class="form_row">
+								<label class="label" for="password_collection">Password</label>
+								<div class="form_collection" id="password_collection">
+									<input type="password" id="password" />
+								</div>
+								<div class="form_message">
+									<p id="password_msg">
+										*
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="form_row">
-							<label class="label" for="password_collection">Password</label>
-							<div class="form_collection" id="password_collection">
-								<input type="password" id="password" />
+							<div class="form_row">
+								<label for="c_password_collection">Confirm password</label>
+								<div class="form_collection" id="c_password_collection">
+									<input type="password" id="c_password" />
+								</div>
+								<div class="form_message">
+									<p id="c_password_msg">
+										*
+									</p>
+								</div>
 							</div>
-							<div class="form_message">
-								<p id="password_msg">
-									*
-								</p>
+							<h2>Personal detail</h2>
+							<div class="form_row">
+								<label class="label" for="email_collection">Email</label>
+								<div class="form_collection" id="email_collection">
+									<input type="text" id="email" />
+								</div>
+								<div class="form_message">
+									<p id="email_msg">
+										*
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="form_row">
-							<label for="c_password_collection">Confirm password</label>
-							<div class="form_collection" id="c_password_collection">
-								<input type="password" id="c_password" />
+							<div class="form_row">
+								<label class="label" for="birthday_collection">Birthday</label>
+								<div class="form_collection" id="birthday_collection">
+									<input title="Day" type="text" name="dd" id="dd" value="">
+									<select title="- Select Month -" name="mm" id="mm" >
+										<option title="- Select Month -" value="" SELECTED >- Select Month -</option>
+										<option title="January" value="1" >January</option>
+										<option title="February" value="2"  >February</option>
+										<option title="March" value="3"  >March</option>
+										<option title="April" value="4"  >April</option>
+										<option title="May" value="5"  >May</option>
+										<option title="June" value="6"  >June</option>
+										<option title="July" value="7"  >July</option>
+										<option title="August" value="8"  >August</option>
+										<option title="September" value="9"  >September</option>
+										<option title="October" value="10"  >October</option>
+										<option title="November" value="11"  >November</option>
+										<option title="December" value="12"  >December</option>
+									</select>
+									<input title="Year" type="text" name="yyyy" id="yyyy" value="">
+								</div>
+								<div class="form_message">
+									<p id="birthday_msg">
+										*
+									</p>
+								</div>
 							</div>
-							<div class="form_message">
-								<p id="c_password_msg">
-									*
-								</p>
+							<div class="form_row">
+								<label class="label" for="gender_collection">Gender</label>
+								<div class="form_collection" id="gender_collection">
+									<select title="Gender" id="gender" name="gender">
+										<option value="" SELECTED >- Select One -</option>
+										<option title="Male" value="m"   >Male</option>
+										<option title="Female" value="f"   >Female</option>
+									</select>
+								</div>
+								<div class="form_message">
+									<p id="gender_msg">
+										*
+									</p>
+								</div>
 							</div>
-						</div>
-						<h2>Personal detail</h2>
-						<div class="form_row">
-							<label class="label" for="email_collection">Email</label>
-							<div class="form_collection" id="email_collection">
-								<input type="text" id="email" />
-							</div>
-							<div class="form_message">
-								<p id="email_msg">
-									*
-								</p>
-							</div>
-						</div>
-						<div class="form_row">
-							<label class="label" for="birthday_collection">Birthday</label>
-							<div class="form_collection" id="birthday_collection">
-								<input title="Day" type="text" name="dd" id="dd" value="">
-								<select title="- Select Month -" name="mm" id="mm" >
-									<option title="- Select Month -" value="" SELECTED >- Select Month -</option>
-									<option title="January" value="1" >January</option>
-									<option title="February" value="2"  >February</option>
-									<option title="March" value="3"  >March</option>
-									<option title="April" value="4"  >April</option>
-									<option title="May" value="5"  >May</option>
-									<option title="June" value="6"  >June</option>
-									<option title="July" value="7"  >July</option>
-									<option title="August" value="8"  >August</option>
-									<option title="September" value="9"  >September</option>
-									<option title="October" value="10"  >October</option>
-									<option title="November" value="11"  >November</option>
-									<option title="December" value="12"  >December</option>
-								</select>
-								<input title="Year" type="text" name="yyyy" id="yyyy" value="">
-							</div>
-							<div class="form_message">
-								<p id="birthday_msg">
-									*
-								</p>
-							</div>
-						</div>
-						<div class="form_row">
-							<label class="label" for="gender_collection">Gender</label>
-							<div class="form_collection" id="gender_collection">
-								<select title="Gender" id="gender" name="gender">
-									<option value="" SELECTED >- Select One -</option>
-									<option title="Male" value="m"   >Male</option>
-									<option title="Female" value="f"   >Female</option>
-								</select>
-							</div>
-							<div class="form_message">
-								<p id="gender_msg">
-									*
-								</p>
-							</div>
-						</div>
-						<p id="create" >
-							<input type="submit" value="Create">
-							<input type="reset" value="Reset">
-						</p>
-					</form>
+							<p id="create" >
+								<input type="submit" value="Create">
+								<input type="reset" value="Reset">
+							</p>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>

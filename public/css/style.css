@@ -72,6 +72,25 @@ p {
 	left: 200px;
 	top: 10px;
 }
+/*login.html*/
+.login_box {
+	background: #EDFDFF;
+	border-width: 3px 3px 3px 3px;
+	border-style: solid;
+	border-color: #22CADB;
+	width: 600px;
+	height: 150px;
+	padding: 5px 5px 5px 5px;
+}
+.register_box {
+	background: #EDFDFF;
+	border-width: 3px 3px 3px 3px;
+	border-style: solid;
+	border-color: #22CADB;
+	width: 600px;
+	height: 300px;
+	padding: 5px 5px 5px 5px;
+}
 footer {
 	width: 100%;
 }

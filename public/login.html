@@ -16,32 +16,34 @@
 				</div>
 			</header>
 			<div class="content">
-				<div class="form_container">
-					<form action="register_submit" method="get" accept-charset="utf-8">
-						<h2>Welcome, please login</h2>
-						<div class="form_row">
-							<label class="label" for="username_collection">Username</label>
-							<div class="form_collection" id="username_collection">
-								<input type="text" id="username" />
+				<div class="login_box">
+					<div class="form_container">
+						<form action="register_submit" method="get" accept-charset="utf-8">
+							<h2>Welcome, please login</h2>
+							<div class="form_row">
+								<label class="label" for="username_collection">Username</label>
+								<div class="form_collection" id="username_collection">
+									<input type="text" id="username" />
+								</div>
+								<div class="form_message">
+									<p id="username_msg"></p>
+								</div>
 							</div>
-							<div class="form_message">
-								<p id="username_msg"></p>
+							<div class="form_row">
+								<label class="label" for="password_collection">Password</label>
+								<div class="form_collection" id="password_collection">
+									<input type="password" id="password" />
+								</div>
+								<div class="form_message">
+									<p id="password_msg"></p>
+								</div>
 							</div>
-						</div>
-						<div class="form_row">
-							<label class="label" for="password_collection">Password</label>
-							<div class="form_collection" id="password_collection">
-								<input type="password" id="password" />
-							</div>
-							<div class="form_message">
-								<p id="password_msg"></p>
-							</div>
-						</div>
-						<p id="create" >
-							<input type="submit" value="Login">
-							<input type="reset" value="Reset">
-						</p>
-					</form>
+							<p id="create" >
+								<input type="submit" value="Login">
+								<input type="reset" value="Reset">
+							</p>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
