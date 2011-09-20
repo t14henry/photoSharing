@@ -40,6 +40,9 @@ header {
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 }
+p {
+	color: #6D7072;
+}
 .form_row {
 	display: block;
 }
@@ -50,6 +53,15 @@ header {
 }
 .form_row div {
 	display: inline-block;
+}
+#birthday_collection #dd, #yyyy {
+	width: 3em;
+}
+#create {
+	position: relative;
+	width: 500px;
+	left: 200px;
+	top: 10px;
 }
 footer {
 	width: 100%;

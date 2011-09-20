@@ -2,23 +2,46 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<title>Index</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>Register</title>
 	</head>
 	<body>
 		<div class="wrapper">
-			<!--background-->
 			<header>
-				<div class="logo"></div>
-				<div class="login"></div>
+				<div class="logo">
+					photo book
+				</div>
+				<div id="login">
+					<a href="login.html">Login</a>&nbsp;&nbsp;<a href="register.html">Sign up</a>
+				</div>
 			</header>
-		</div>
-		<div class="content">
-			<div class="form_container">
-				<form action="login_submit" method="get" accept-charset="utf-8">
-					<p>
-						<input type="submit" value="Continue &rarr;">
-					</p>
-				</form>
+			<div class="content">
+				<div class="form_container">
+					<form action="register_submit" method="get" accept-charset="utf-8">
+						<h2>Welcome, please login</h2>
+						<div class="form_row">
+							<label class="label" for="username_collection">Username</label>
+							<div class="form_collection" id="username_collection">
+								<input type="text" id="username" />
+							</div>
+							<div class="form_message">
+								<p id="username_msg"></p>
+							</div>
+						</div>
+						<div class="form_row">
+							<label class="label" for="password_collection">Password</label>
+							<div class="form_collection" id="password_collection">
+								<input type="text" id="password" />
+							</div>
+							<div class="form_message">
+								<p id="password_msg"></p>
+							</div>
+						</div>
+						<p id="create" >
+							<input type="submit" value="Login">
+						</p>
+					</form>
+				</div>
 			</div>
 		</div>
 		<footer></footer>
