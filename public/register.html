@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/register_chk.js" type="text/javascript" charset="utf-8"></script>
 		<title>Register</title>
 	</head>
 	<body>
@@ -16,6 +17,13 @@
 				</div>
 			</header>
 			<div class="content">
+				<!-- <nav>
+				<ul>
+				<li>
+				Home
+				</li>
+				</ul>
+				</nav> -->
 				<div class="form_container">
 					<form action="register_submit" method="get" accept-charset="utf-8">
 						<h2>Registration</h2>
@@ -33,7 +41,7 @@
 						<div class="form_row">
 							<label class="label" for="password_collection">Password</label>
 							<div class="form_collection" id="password_collection">
-								<input type="text" id="password" />
+								<input type="password" id="password" />
 							</div>
 							<div class="form_message">
 								<p id="password_msg">
@@ -44,7 +52,7 @@
 						<div class="form_row">
 							<label for="c_password_collection">Confirm password</label>
 							<div class="form_collection" id="c_password_collection">
-								<input type="text" id="c_password" />
+								<input type="password" id="c_password" />
 							</div>
 							<div class="form_message">
 								<p id="c_password_msg">
@@ -108,11 +116,13 @@
 						</div>
 						<p id="create" >
 							<input type="submit" value="Create">
+							<input type="reset" value="Reset">
 						</p>
 					</form>
 				</div>
 			</div>
 		</div>
 		<footer></footer>
+		<script src="js/register_chk_r.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

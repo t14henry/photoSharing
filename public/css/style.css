@@ -36,9 +36,12 @@ header {
 .content {
 	background-color: white;
 	padding: 15px 15px 15px 15px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
 }
 p {
 	color: #6D7072;
@@ -54,8 +57,14 @@ p {
 .form_row div {
 	display: inline-block;
 }
+.form_row input {
+	width: 16em;
+}
 #birthday_collection #dd, #yyyy {
 	width: 3em;
+}
+#birthday_collection #mm {
+	width: 9em;
 }
 #create {
 	position: relative;
