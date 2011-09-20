@@ -5,7 +5,7 @@ function check_psw_equal() {
   if (first == second) {
     return true;  
   } else {
-    document.getElementById("c_password_msg").innerHTML = "* The password does not match the first one!";
+    document.getElementById("c_password_msg").innerHTML = "* Does not match";
     return false;
   }
 }
@@ -14,6 +14,6 @@ function check_psw_length() {
   var psw = document.getElementById("password").value;
 
   if (psw.length < 6 || psw.length > 32) {
-    document.getElementById("password_msg").innerHTML = "* must have 6-32 charaters";
+    document.getElementById("password_msg").innerHTML = "* Must have 6-32 charaters";
   }
 }

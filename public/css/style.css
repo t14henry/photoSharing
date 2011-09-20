@@ -26,6 +26,7 @@ header {
 	font-weight: bold;
 	color: white;
 }
+/*the login and sign in button at the top right corner*/
 #login {
 	width: 120px;
 	position: relative;
@@ -82,6 +83,7 @@ p {
 	height: 150px;
 	padding: 5px 5px 5px 5px;
 }
+/*register.html*/
 .register_box {
 	background: #EDFDFF;
 	border-width: 3px 3px 3px 3px;
