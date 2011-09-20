@@ -9,14 +9,32 @@ html {
 }
 body {
 	width: 100%;
-	height: 100%
+	height: 100%;
+	font-family: Arial, helvetica, clean, sans-serif;
 }
 .wrapper {
 	width: 900px;
 	margin: 0 auto;
 }
+header {
+	width: 100%;
+	height: 65px;
+}
+.logo {
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-size: 30pt;
+	font-weight: bold;
+	color: white;
+}
+#login {
+	position: relative;
+	top: -45px;
+	left: 800px;
+	font-size: 12pt;
+}
 .content {
 	background-color: white;
+	padding: 15px 15px 15px 15px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
