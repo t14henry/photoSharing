@@ -17,3 +17,11 @@ function check_psw_length() {
     document.getElementById("password_msg").innerHTML = "* Must have 6-32 charaters";
   }
 }
+
+function check_email() {
+  var email = document.getElementById("email").value;
+  
+  if (email.match(/\w+@(\w+.)+\w+/) == null) {
+    document.getElementById("email_msg").InnerHTML = "* Wrong Email address";
+  }
+}
